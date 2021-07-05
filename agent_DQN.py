@@ -1,10 +1,3 @@
-""" Required submission file
-
-In this file, you should implement your `AgentSpec` instance, and **must** name it as `agent_spec`.
-As an example, this file offers a standard implementation.
-"""
-#Has added history to store all the losses for visualization
-
 import pickle
 import os
 path = os.path.split(os.path.realpath(__file__))[0]
