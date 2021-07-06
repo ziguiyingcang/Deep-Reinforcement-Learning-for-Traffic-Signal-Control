@@ -1,3 +1,4 @@
 # Deep-Reinforcement-Learning-for-Traffic-Signal-Control
-Agent design for single traffic signal; including DQN, Double DQN, Dueling DQN, PER, Noisy DQN, Multistep DQN and Distributional DQN
+Agent design for single traffic signal; including DQN, Double DQN, Dueling DQN, PER, Noisy DQN, Multistep DQN, Distributional DQN and their combinations;
+
 Based on KDD2021 CityBrain Challenge
