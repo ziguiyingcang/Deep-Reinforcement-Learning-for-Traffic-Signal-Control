@@ -1,3 +1,7 @@
+#Compared to DDPG-v0
+#Add delta time to OU Noise
+#Do hard update before training Actor and Critic netwokrs 
+
 import pickle
 import os
 path = os.path.split(os.path.realpath(__file__))[0]
