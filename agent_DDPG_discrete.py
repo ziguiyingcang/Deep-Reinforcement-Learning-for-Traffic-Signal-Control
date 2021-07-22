@@ -1,3 +1,10 @@
+#Compared to DDPG-v0
+#Add delta time to OU noise
+#Add param noise
+#When do exploration, use random.choice to sample from action probabilities rather than argmax
+#Use softmax activation rather than tanh
+#Do hard update before training of actor and critic networks
+
 import pickle
 import os
 path = os.path.split(os.path.realpath(__file__))[0]
